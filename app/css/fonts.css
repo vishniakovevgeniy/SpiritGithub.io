@@ -1,0 +1,35 @@
+
+
+@font-family{
+	font-family: Angelface;
+	src: url(../fonts/Angelface/Angelface.otf);
+}
+
+@font-family{
+	font-family: Lobster 1.4;
+	src: url(../fonts/Lobster_1_4/Lobster_1_4.otf);
+}
+
+@font-family{
+	font-family: Pinyon Script;
+	src: url(../fonts/PinyonScript/PinyonScript.ttf);
+	font-weight: Regular;
+}
+
+@font-family{
+	font-family: RobotoLightItalic;
+	src: url(../fonts/RobotoLightItalic/Roboto-LightItalic.ttf);
+	font-weight: Italic;
+}
+
+@font-family{
+	font-family: RobotoMedium;
+	src: url(../fonts/RobotoMedium/RobotoMedium.ttf);
+	font-weight: Medium;
+}
+
+@font-family{
+	font-family: RobotoRegular;
+	src: url(../fonts/RobotoRegular/RobotoRegular.ttf);
+	font-weight: Regular;
+}

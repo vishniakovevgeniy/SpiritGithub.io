@@ -1,0 +1,21 @@
+/* Large devices  lg  */
+@media (min-width: 1200px)
+
+
+/* Madium devices  md  */
+@media (min-width: 992px)
+
+
+
+/* Small devices  sm  */
+@media (min-width: 768px)
+
+
+
+/* Extra Small devices xs */
+@media (min-width: 480px)
+
+
+
+/* Iphone Retina */
+@media (min-width: 320px)
