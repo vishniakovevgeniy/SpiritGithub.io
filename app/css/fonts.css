@@ -1,35 +1,36 @@
 
 
 @font-family{
-	font-family: Angelface;
-	src: url(../fonts/Angelface/Angelface.otf);
+	font-family: Gotham-Book;
+	src: url(../fonts/Gotham-Book/Gotham-Book.otf);
 }
 
 @font-family{
-	font-family: Lobster 1.4;
-	src: url(../fonts/Lobster_1_4/Lobster_1_4.otf);
+	font-family: Lato-Bold;
+	src: url(../fonts/Lato-Bold/Lato-Bold.ttf);
 }
 
 @font-family{
-	font-family: Pinyon Script;
-	src: url(../fonts/PinyonScript/PinyonScript.ttf);
-	font-weight: Regular;
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold/OpenSans-Bold.ttf);
 }
 
 @font-family{
-	font-family: RobotoLightItalic;
-	src: url(../fonts/RobotoLightItalic/Roboto-LightItalic.ttf);
-	font-weight: Italic;
+	font-family: OpenSans-Italic;
+	src: url(../fonts/OpenSans-Italic/OpenSans-Italic.ttf);
 }
 
 @font-family{
-	font-family: RobotoMedium;
-	src: url(../fonts/RobotoMedium/RobotoMedium.ttf);
-	font-weight: Medium;
+	font-family: OpenSans-Light;
+	src: url(../fonts/OpenSans-Light/OpenSans-Light.ttf);
 }
 
 @font-family{
-	font-family: RobotoRegular;
-	src: url(../fonts/RobotoRegular/RobotoRegular.ttf);
-	font-weight: Regular;
+	font-family: OpenSans-Regular;
+	src: url(../fonts/OpenSans-Regular/OpenSans-Regular.ttf);
+}
+
+@font-family{
+	font-family: OpenSans-Semibold;
+	src: url(../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf);
 }
