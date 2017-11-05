@@ -86,7 +86,7 @@
     font-size: 20px;
     color: #fff; }
   .header #scroll {
-    margin: 230px auto 50px auto;
+    margin: 200px auto 50px auto;
     padding: 9px 17px;
     -webkit-border-radius: 50px;
             border-radius: 50px;
@@ -145,7 +145,7 @@
   border: 1px solid #7f7f7f;
   color: #7f7f7f;
   background-color: transparent;
-  margin-top: 20px; }
+  margin: 20px auto 100px auto; }
   .about button i {
     padding-right: 10px;
     font-size: 14px;
@@ -164,3 +164,138 @@
 
 .about .mac {
   margin-top: 105px; }
+
+.team {
+  background-color: #070707; }
+  .team .head {
+    font-size: 44px;
+    font-family: "OpenSans-Light";
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 100px; }
+    .team .head span {
+      font-weight: bold; }
+  .team .long {
+    margin-top: -20px; }
+  .team .short {
+    margin-top: -25px; }
+  .team .sliders {
+    margin-top: 92px;
+    padding-bottom: 100px; }
+  .team .foto {
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    max-width: 130px;
+    height: 127px;
+    -webkit-border-radius: 100px;
+            border-radius: 100px;
+    margin: 0 auto; }
+  .team .name {
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin: 22px auto 40px auto; }
+    .team .name span {
+      font-size: 16px;
+      font-weight: 100; }
+  .team .info {
+    font-family: "OpenSans-Regular";
+    color: #fff; }
+
+.services .head {
+  font-size: 44px;
+  font-family: "OpenSans-Light";
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 100px; }
+  .services .head span {
+    font-weight: bold; }
+
+.services .long {
+  margin-top: -20px; }
+
+.services .short {
+  margin-top: -25px; }
+
+.services .text {
+  font-family: "OpenSans-Italic";
+  font-size: 16px;
+  color: #6c6c6c;
+  margin: 20px auto 103px auto; }
+
+.services i {
+  border: 5px solid #fcac45;
+  font-size: 50px;
+  color: black;
+  -webkit-border-radius: 100px;
+          border-radius: 100px; }
+
+.services .fa-desktop {
+  padding: 32px 25px 20px 25px;
+  margin-bottom: 30px; }
+
+.services .fa-mobile {
+  padding: 20px 39px 20px 39px;
+  font-size: 65px;
+  margin-bottom: 26px; }
+
+.services .fa-camera {
+  padding: 29px 26px 28px 29px;
+  margin-bottom: 24px; }
+
+.services .fa-bullhorn {
+  padding: 27px 29px 27px 29px;
+  -webkit-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  margin-bottom: 26px; }
+
+.services .name {
+  font-family: "OpenSans-Semibold";
+  color: #222222;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.services .info {
+  font-family: "OpenSans-Italic";
+  font-size: 14px;
+  color: #222222;
+  margin-bottom: 100px; }
+
+.clients {
+  background-color: #070707; }
+  .clients .head {
+    font-size: 44px;
+    font-family: "OpenSans-Light";
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 100px; }
+    .clients .head span {
+      font-weight: bold; }
+  .clients .long {
+    margin-top: -20px; }
+  .clients .short {
+    margin-top: -25px; }
+  .clients .slid {
+    margin: 90px auto 200px auto; }
+    .clients .slid li img {
+      display: inline-block;
+      height: 25px;
+      margin: auto 15px auto 15px; }
+
+.work .head {
+  font-size: 44px;
+  font-family: "OpenSans-Light";
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 100px; }
+  .work .head span {
+    font-weight: bold; }
+
+.work .long {
+  margin-top: -20px; }
+
+.work .short {
+  margin-top: -25px; }
