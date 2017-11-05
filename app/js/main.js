@@ -4,3 +4,13 @@ $(document).ready(function(){
     autoDirection: 'next',
   });
 });
+
+$(document).ready(function(){
+  $('.view').hover(
+    function() {
+      $( this ).addClass('');
+    }, function() {
+      $( this ).removeClass('');
+    }
+  );
+});
