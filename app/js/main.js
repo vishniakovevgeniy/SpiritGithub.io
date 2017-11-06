@@ -20,6 +20,8 @@ $(document).ready(function(){
   $('.slider').bxSlider({
     mode: 'fade',
     autoDirection: 'next',
+    auto: true,
+    pause: 2000
   });
 });
 
