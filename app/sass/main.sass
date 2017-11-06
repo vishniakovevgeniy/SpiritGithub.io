@@ -3,7 +3,6 @@
 .header
   background-color: #111;
   .logo
-    position: fixed;
     margin-top: 34px;
     a
       font-family: Lato;
@@ -14,9 +13,6 @@
       outline: none;
   .top-nav
     margin-top: 42px;
-    position: fixed;
-    right: 85px;
-    width: 80%;
     li
       display: inline-block;
       margin-left: 3%;
@@ -68,7 +64,7 @@
     text-transform: uppercase;
     font-size: 44px;
     color: #999999;
-    margin-top: 280px;
+    margin-top: 200px;
     span
       font-weight: bold;
       color: #fcac45;
@@ -79,7 +75,7 @@
     font-size: 20px;
     color: #fff;
   #scroll
-    margin: 200px auto 50px auto;
+    margin: 170px auto 50px auto;
     padding: 9px 17px;
     border-radius: 50px;
     font-size: 24px;
@@ -285,6 +281,7 @@
     margin-top: 115px;
   .filter
     margin-top: 115px;
+    margin-bottom: 35px;
     p
       display: inline;
       font-family: "OpenSans-Regular";
@@ -294,37 +291,165 @@
       &:hover
         color: #424242;
         text-decoration: underline;
-    .f-web,.f-mob,.f-pho
-      border-left: 2px solid #6c6c6c;
+    .webd,.mobiled,.photograpy
+      border-left: 2px solid #6c6c6c
       padding-left: 15px;
-    .f-web,.f-mob
+    .webd,.mobiled,.all
       margin-right: 15px;
-    .all
-      font-weight: bold;
-      margin-right: 15px;
-  .photo
+  .photo,.web,.mobile
     overflow: hidden;
-    height: 237px;
-    width: 263px;
+    max-height: 237px;
+    max-width: 263px;
     margin: 0 auto;
     outline: 1px solid #f8a944;
-  .view
-    background-image: url(../img/design.png);
-    height: 237px;
     position: relative;
+    margin-top: 20px;
+  .view
+    position: absolute;
+    top: 0;
+    padding-top: 60px;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
     &:hover
-      transform: scale(1.5, 1.7) rotate(30deg);
+      opacity: 0.7;
+      background-color: #222222;
       transition: 0.5s;
-    .img
-      transition: 0.3s;
-      position: relative;
-      &:hover
-        transform: scale(1.5, 1.7) rotate(30deg);
-        transition: 0.5s;
     p
-      position: absolute;
-      top: 0;
+      font-family: "OpenSans-Semibold";
+      font-weight: bold;
+      font-size: 19px;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      span
+        color: #b2b2b2;
+        font-size: 14px;
+        text-transform: lowercase;
+    h5
+      color: #e79e42;
+      font-size: 30px;
+      border: 1px solid #e79e42;
+      border-radius: 100px;
+      text-align: center;
+      width: 35px
       margin: 0 auto;
-      outline: 1px solid #f8a944;
-      &:hover .img
-        
+
+
+.coments
+  background-color: #070707;
+  margin-top: 100px;
+  .head
+    font-size: 44px;
+    font-family: "OpenSans-Light";
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 100px;
+    span
+      font-weight: bold;
+  .long
+    margin-top: -20px;
+  .short
+    margin-top: -25px;
+  .come
+    margin: 100px auto 150px auto;
+    .slider
+        .coment
+          font-family: "OpenSans-Semibold";
+          font-weight: bold;
+          font-size: 18px;
+          color: #e7e7e7;
+          margin-right: 80px;
+
+        .name
+          color: #b2b2b2;
+          margin-right: 80px;
+          font-size: 18px;
+
+
+.contact
+  .head
+    font-size: 44px;
+    font-family: "OpenSans-Light";
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 100px;
+    span
+      font-weight: bold;
+  .long
+    margin-top: -20px;
+  .short
+    margin-top: -25px;
+  .data
+    font-family: "OpenSans-Italic";
+    font-size: 16px;
+    color: #6c6c6c;
+    margin: 30px auto 50px auto;
+  form
+    .name
+      width: 360px;
+      height: 40px;
+      border: 1px solid #999999;
+      outline: none;
+      padding-left: 10px;
+      margin-right: 30px;
+    label
+      font-size: 15px;
+      font-family: OpenSans;
+      color: #636363;
+      text-align: left;
+      margin-top: 20px;
+    .mail
+      width: 360px;
+      height: 40px;
+      border: 1px solid #999999;
+      outline: none;
+    .massage
+      width: 754px;
+      height: 163px;
+      border: 1px solid #999999;
+      outline: none;
+    button
+      border: 1px solid #fcac45;
+      text-transform: uppercase;
+      padding: 14px 60px;
+      background-color: #fcac45;
+      color: #fff;
+      font-family: "OpenSans-Semibold";
+      font-size: 16px;
+      font-weight: bold;
+      margin: 20px auto 100px auto;
+      transition: 0.5s;
+      display: block;
+      margin-left: 69%;
+      &:hover
+        background-color: #fff;
+        color: #fcac45;
+        transition: 0.5s;
+
+
+.footer
+  background-color: #222222;
+  p
+    color: #b2b2b2;
+    font-family: "OpenSans-Semibold";
+    font-weight: bold;
+    margin-top: 43px;
+  .fa-facebook
+    padding: 7px 11px;
+  i
+    border: 2px solid #b2b2b2;
+    border-radius: 100px;
+    padding: 7px 8px
+    font-size: 18px;
+    font-weight: bold;
+    color: #b2b2b2;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 30px auto 30px 14px;
+    &:hover
+      background-color: #b2b2b2;
+      transition: 0.5s;
+      color: #070707;
